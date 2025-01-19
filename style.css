@@ -14,7 +14,6 @@
 
 #mainHeader {
   width: 100%;
-  /* max-width: 588px; */
   height: 64px;
   background-color: rgba(110, 105, 104, 0.7);
   margin: 0 auto;
@@ -24,7 +23,6 @@
 #mainHeader ul {
   list-style: none;
   display: flex;
-  gap: 48px;
   justify-content: center;
   margin: 0 auto;
   max-width: 540px;
@@ -36,6 +34,7 @@
   width: auto;
   text-align: center;
   color: white;
+  padding: 0 24px;
 }
 
 #logoBg {
@@ -43,12 +42,61 @@
   width: 100%;
   background: url(./assets/concrete-223838.jpg) center/cover no-repeat;
   display: block;
+  justify-content: center;
 }
 
 #logoBg img {
-  border: 1px solid red;
-  width: 583px;
-  height: 300px;
-  margin: 208px 25%;
-  justify-content: center;
+  display: block;
+  margin: 0px auto;
+  padding-top: 133px;
+  width: 50%;
+  height: 450px;
+}
+
+#aboutMe {
+  background: url(./assets/about-me-bg.jpg) center/cover no-repeat;
+  height: 1520px;
+  background-attachment: fixed;
+}
+
+#aboutMe span {
+  height: 724px;
+  width: 40%;
+  display: block;
+  margin: 0 40% 0;
+  padding-top: 40%;
+  background: white;
+}
+
+#projects {
+  height: 716px;
+  width: 100%;
+  background: url(./assets/concrete-223838.jpg) center/cover no-repeat;
+  display: block;
+}
+
+#contactFormContainer {
+  height: 708px;
+  width: 100%;
+  background: url(./assets/contact-from-bg.jpg) center/cover no-repeat;
+  display: block;
+  align-content: center;
+  padding: 121.5px 40%;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 383px;
+  height: 465px;
+  background-color: white;
+  text-align: center;
+}
+
+footer {
+  height: 98px;
+  width: 100%;
+  background-color: rgb(47, 46, 46);
+  display: flex;
+  flex-direction: column;
 }
