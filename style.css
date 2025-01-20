@@ -38,41 +38,45 @@
 }
 
 #logoBg {
-  height: 716px;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background: url(./assets/concrete-223838.jpg) center/cover no-repeat;
-  display: block;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #logoBg img {
   display: block;
-  margin: 0px auto;
-  padding-top: 133px;
-  width: 50%;
-  height: 450px;
+  width: 100%;
+  max-width: 680px;
+  height: auto;
 }
 
 #aboutMe {
   background: url(./assets/about-me-bg.jpg) center/cover no-repeat;
-  height: 1520px;
   background-attachment: fixed;
+  padding: 80px 24px;
+  height: 100vh;
+  min-height: 768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #aboutMe span {
-  height: 724px;
-  width: 40%;
+  width: 100vw;
   display: block;
-  margin: 0 40% 0;
-  padding-top: 40%;
+  padding: 2rem;
   background: white;
+  margin-left: 40%;
 }
 
 #projects {
-  height: 716px;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background: url(./assets/concrete-223838.jpg) center/cover no-repeat;
-  display: block;
+  display: flex;
 }
 
 #contactFormContainer {
