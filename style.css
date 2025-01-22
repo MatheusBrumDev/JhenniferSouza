@@ -92,11 +92,14 @@
   width: 383px;
   height: 465px;
   text-align: center;
+  padding: 24px;
 }
 
 #contactForm {
+  margin: 24px auto;
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 footer {
